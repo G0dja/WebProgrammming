@@ -1,1 +1,24 @@
+<html>
+<head>
+    <title>Js</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <h1>Заголовок:</h1>
+    <ul>
+        <li>JavaScript</li>
+        <li>CSS</li>
+        <li>Html</li>
+    </ul>
 
+
+    <script>
+        let elem_h1 = document.querySelector('h1');
+        let elem_ul = document.querySelector('ul');
+        let elem_li_Html = document.querySelectorAll('li')
+        console.log(elem_h1);
+        console.log(elem_ul);
+        console.log(elem_li_Html[2]);
+    </script>
+</body>
+</html>
